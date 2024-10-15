@@ -9,7 +9,7 @@ const Discovery = ({ history, generateNew, updateBan, bandata }) => {
 
   const fetchApodData = async () => {
     try {
-      const response = await fetch('https://api.nasa.gov/planetary/apod?count=1&thumbs=true&api_key=lXUWD7fdnlR8Jigje2V0gAUAC8FpkDucFqdqrN57');
+      const response = await fetch('https://api.nasa.gov/planetary/apod?count=1&thumbs=true&api_key=<yourkey>');
       if (!response.ok) {
         throw new Error('Network response was not ok');
       }
