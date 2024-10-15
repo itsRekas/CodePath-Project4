@@ -31,10 +31,11 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![vid1](https://github.com/user-attachments/assets/7d2f4007-9d05-4ccc-9dc3-6bafe6b9d1c8)
+
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with LiveCap  
+GIF created with LiCeCap  
 
 
 ## Notes
