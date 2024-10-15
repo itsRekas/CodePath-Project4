@@ -1,0 +1,124 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+#root {
+  margin: 0 0;
+  text-align: center;
+  width:100%;
+}
+
+.history{
+  width:20%;
+  height: 80vh;
+  background-color: azure;
+  border-radius: 25px;
+  scrollbar-width: 3px;
+  overflow: hidden;
+
+}
+
+.catalog{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; 
+  height: 80%;
+  width: 100%;
+  overflow-y: scroll;
+  padding: 10px;
+  box-sizing: border-box;
+  gap: 20px;
+  font-size: small;
+}
+
+.catalog img{
+  width: 50px;
+}
+
+.catalog::-webkit-scrollbar {
+  width: 8px;
+}
+
+.catalog::-webkit-scrollbar-track {
+  background: lightgray; 
+  border-radius: 10px; 
+}
+
+.catalog::-webkit-scrollbar-thumb {
+  background-color: darkgray;
+  border-radius: 10px;
+  border: 2px solid transparent;
+}
+
+.cover {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; 
+  width: 100%;
+  height: 100%;
+}
+
+
+.ban{
+  width: 20%;
+  height: 80vh;
+  background-color: azure;
+  border-radius: 25px;
+}
+
+.spaceSpace{
+  width: 50%;
+  gap:50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Space{
+  width: 100%;
+  height: 400px;
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Space div{
+  width: 80%;
+  height: 70%;
+}
+.Space img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  
+  .cover {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap:40px;
+  }
+
+  .spaceSpace {
+    order: 1;
+    width: 100%;
+  }
+
+  .history,
+  .ban {
+    order: 2;
+    width: 40%;
+    height: 300px;
+  }
+
+}
